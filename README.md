@@ -6,6 +6,7 @@
 https://maycon-dash.netlify.app/
 
 Dashboard Vendas é uma aplicação full stack web construída durante a 3ª edição da **Semana DevSuperior** (#sds3), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot.
 
 ## Layout web
 ![Web 1](https://github.com/mayconlyn/assets/blob/master/DevSuperior/sds3/Evento.png)
