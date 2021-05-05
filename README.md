@@ -1,4 +1,4 @@
-# Dashborad Vendas 
+# Dashboard Vendas 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/mayconlyn/projeto-sds3/blob/main/LICENSE) 
 
 # Sobre o projeto
@@ -11,9 +11,6 @@ Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos po
 
 ## Layout web
 ![Web 1](https://github.com/mayconlyn/assets/blob/master/DevSuperior/sds3/Evento.png)
-
-## Modelo conceitual
-
 
 # Tecnologias utilizadas
 ## Back end
