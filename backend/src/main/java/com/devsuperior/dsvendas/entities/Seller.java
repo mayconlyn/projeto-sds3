@@ -1,17 +1,28 @@
 package com.devsuperior.dsvendas.entities;
 
 import java.io.Serializable;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name ="tb_sellers")
 public class Seller implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
-	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
 	
-	private Set<Sale> sales = new HashSet<>();
+	@OneToMany(mappedBy = "seller")
+	private List<Sale> sales = new ArrayList<>();
 	
 	public Seller() {
 	}
@@ -37,7 +48,7 @@ public class Seller implements Serializable {
 		this.name = name;
 	}
 
-	public Set<Sale> getSales() {
+	public List<Sale> getSales() {
 		return sales;
 	}
 
