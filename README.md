@@ -12,12 +12,16 @@ Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos po
 ## Layout web
 ![Web 1](https://github.com/mayconlyn/assets/blob/master/DevSuperior/sds3/Evento.png)
 
+## Modelo conceitual
+![Modelo Conceitual](https://github.com/mayconlyn/assets/blob/master/DevSuperior/sds3/sds3-mc.png)
+
 # Tecnologias utilizadas
 ## Back end
 - Java
 - Spring Boot
 - JPA / Hibernate
 - Maven
+- Heroku
 ## Front end
 - HTML / CSS / JS / TypeScript
 - ReactJS
