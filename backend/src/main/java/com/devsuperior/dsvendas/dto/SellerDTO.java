@@ -12,8 +12,6 @@ public class SellerDTO implements Serializable {
 	private Long id;
 	private String name;
 	
-	private List<SaleDTO> sales = new ArrayList<>();
-	
 	public SellerDTO() {
 	}
 
@@ -43,9 +41,4 @@ public class SellerDTO implements Serializable {
 		this.name = name;
 	}
 
-	public List<SaleDTO> getSales() {
-		return sales;
-	}
-	
-	
 }
