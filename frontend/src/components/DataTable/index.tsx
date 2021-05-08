@@ -54,7 +54,7 @@ const DataTable = () => {
 
                     </tbody>
                 </table>
-            </div>]
+            </div>
         </>
     );
 }
